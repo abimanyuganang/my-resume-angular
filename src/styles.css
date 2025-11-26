@@ -1,1 +1,106 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #007bff;
+}
+
+
+.profile-pic {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 130px;
+    height: 150px;
+    object-fit: fill;
+}
+
+.hobby-image {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+}
+
+
+@media (max-width: 600px) {
+    .profile-pic {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
